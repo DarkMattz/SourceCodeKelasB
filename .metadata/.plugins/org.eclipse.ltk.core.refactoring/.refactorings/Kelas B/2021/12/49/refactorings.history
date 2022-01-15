@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;arrayList&apos; in &apos;TrainingKetiga.main(...)&apos; to &apos;vector&apos;&#x0D;&#x0A;- Original project: &apos;Kelas B&apos;&#x0D;&#x0A;- Original element: &apos;TrainingKetiga.main(String[]).arrayList&apos;&#x0D;&#x0A;- Renamed element: &apos;arrayList&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;arrayList&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{TrainingKetiga.java[TrainingKetiga~main~\[QString;@arrayList!2492!2541!2508!2516!QVector\&lt;QInteger;&gt;;!0!false" name="vector" references="true" stamp="1638603115547" version="1.0"/>
+</session>

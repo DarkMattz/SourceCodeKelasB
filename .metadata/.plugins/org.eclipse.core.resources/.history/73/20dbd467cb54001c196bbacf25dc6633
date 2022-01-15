@@ -1,0 +1,36 @@
+//
+//public class TrainingKetiga {
+//	public static void main(String[] args) {
+//		
+////		//ini dispecify jumlah arraynya
+////		String[] iniArray = new String[12];
+////		
+////		iniArray[0] = "ini";
+////		iniArray[1] = "sebuah";
+////		iniArray[2] = "string";
+////		iniArray[11] = null;
+////		
+////		//langsung masuk arraynya
+////		int[] iniArrayKedua = {0, 1, 2, 3};
+////		
+////		for(int i = 0; i < iniArray.length; i++) {
+////			System.out.println("Index " + i + " Isi array : " + iniArray[i]);
+////		}
+////		
+////		//syntax for(tipedataarray variablebaru : arrayasal)
+//////		for(int angka : iniArray) {
+//////			System.out.println("array pertama: " + angka);
+//////		}
+//		
+//		//Multidimensional
+//		int[][] iniArrayMultiSatu = new int[2][2];
+//		
+//		int[][] iniArrayMultiKedua = {{1,2}, {1,2}};
+//		
+//		for(int i = 0; i < iniArrayMultiKedua.length; i++) {
+//			for(int j = 0; j < iniArrayMultiKedua.length; j++) {
+//				System.out.println(iniArrayMultiKedua[i][j]);
+//			}
+//		}
+//	}
+//}

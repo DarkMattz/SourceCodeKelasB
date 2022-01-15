@@ -1,0 +1,82 @@
+import java.util.Scanner;
+
+public class TrainingKetiga {
+	public static void main(String[] args) {
+//		//ini deklarasi dari array
+//		int[] iniArray = new int[5];
+//		
+//		//deklarasi kedua
+//		int[] iniArrayKedua = {123131, 131, 23423423, 345345, 243};
+//		
+//		
+//		//ini masukin data ke array
+//		//index -> urutan dari array, mulainya dari 0
+//		iniArrayKedua[0] = 121;
+//		iniArrayKedua[1] = 13;
+//		iniArrayKedua[2] = 23423423;
+//		iniArrayKedua[3] = 345345;
+//		iniArrayKedua[4] = 234;
+//		
+//		//output seluruh data di array
+//		//iniArray.length -> nilai 5
+//		System.out.println("for loop biasa");
+//		for(int i = 0; i < iniArrayKedua.length; i++) {
+////			System.out.println("array pertama: " + iniArray[i]);
+//			
+//			System.out.println("array kedua: " + iniArrayKedua[i]);
+//		}
+		
+//		System.out.println("For each (khusus array)");
+//		//loop for each (looping khusus untuk array)
+//		//for(tipedata variable_data_yang_mau_dioutput : sumber_array)
+//		for(Integer variable : iniArrayKedua) {
+//			System.out.println(variable + 1);
+//		}
+		
+		
+//		String[] iniArrayString = new String[5];
+//		
+//		//ini masukin data ke array
+//		//index -> urutan dari array, mulainya dari 0
+//		iniArrayString[0] = "Aku";
+//		iniArrayString[1] = "Dia";
+//		iniArrayString[2] = "Kita";
+//		iniArrayString[3] = "Mereka";
+//		iniArrayString[4] = "Kamu";
+//		
+//		//output seluruh data di array
+//		//iniArray.length -> nilai 5
+//		for(int i = 0; i < iniArrayString.length; i++) {
+//			System.out.println(iniArrayString[i]);
+//		}
+		
+//		Scanner input = new Scanner(System.in);
+		
+//		int[][] iniArrayMultiDimensi = new int[4][5];
+		
+		int[][] iniArrayMultiDimensi = {{1, 2, 3, 4, 5}, {6, 7, 8, 9, 10}, {11, 12, 13, 14, 15}};
+		
+		//bagian input
+//		for(int i = 0; i < iniArrayMultiDimensi.length; i++) {
+//			for(int j = 0; j < iniArrayMultiDimensi[i].length; j++) {
+//				iniArrayMultiDimensi[i][j] = input.nextInt();
+//			}
+//		}
+		
+		//bagian output
+//		for(int i = 0; i < iniArrayMultiDimensi.length; i++) {
+//			for(int j = 0; j < iniArrayMultiDimensi[i].length; j++) {
+//				System.out.print(iniArrayMultiDimensi[i][j] + " ");
+//			}
+//			System.out.println();
+//		}
+		
+		for(int[] outputArray : iniArrayMultiDimensi) {
+			for(int output : outputArray) {
+				System.out.print(output + " ");
+			}
+			System.out.println();
+		}
+		
+	}
+}

@@ -1,0 +1,21 @@
+
+public class TrainingKetiga {
+	public static void main(String[] args) {
+		//ini deklarasi dari array
+		int[] iniArray = new int[5];
+		
+		//ini masukin data ke array
+		//index -> urutan dari array, mulainya dari 0
+		iniArray[0] = 123131;
+		iniArray[1] = 131;
+		iniArray[2] = 23423423;
+		iniArray[3] = 345345;
+		iniArray[4] = 234;
+		
+		//output seluruh data di array
+		//iniArray.length -> nilai 5
+		for(int i = 0; i < iniArray.length; i++) {
+			System.out.println(iniArray[i]);
+		}
+	}
+}
